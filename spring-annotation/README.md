@@ -119,6 +119,7 @@
 		```
 		测试位置: com.atguigu.test.IOCTest#testImport
 		```
+		
 	6. 小结:给容器中注册组件的方法
 	
 		1. 包扫描+组件标注注解(@Controller/@Service/@Repository/@Component),名称默认类名首字母小写
@@ -131,5 +132,13 @@
 			
 			2. ImportSelector:返回需要导入组件的全类名数组
 			
-			3. ImportBeanDefinitionRegistrar
+				```
+				com.atguigu.condition.MyImportSelector
+				```
+				
+			3. ImportBeanDefinitionRegistrar:手动注册bean
+			
+				```
+				com.atguigu.condition.MyImportBeanDefinitionRegistrar
+				```
 			
