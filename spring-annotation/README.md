@@ -74,7 +74,7 @@
         FilterType.ASSIGNABLE_TYPE：按照给定的类型；
         FilterType.ASPECTJ：使用ASPECTJ表达式
         FilterType.REGEX：使用正则指定
-        FilterType.CUSTOM：使用自定义规则
+        FilterType.CUSTOM：使用自定义规则 com.atguigu.config.MyTypeFilter
    ```
 
   测试类:com.atguigu.test.IOCTest#test01
@@ -141,4 +141,13 @@
 				```
 				com.atguigu.condition.MyImportBeanDefinitionRegistrar
 				```
+		4. 使用spring提供的FactoryBean(工厂Bean)
+		
+				```
+				com.atguigu.bean.ColorFactoryBean
+				```
 			
+			1. 默认获取到的是工厂bean调用getObject创建的对象
+			
+	  		2. 要获取工厂Bean本身，我们需要给id前面加一个&
+	  			&colorFactoryBean
