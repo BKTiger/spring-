@@ -17,7 +17,7 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
 	 */
 	@Override
 	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
-		
+		//判断ioc容器中是否有红色和蓝色
 		boolean definition = registry.containsBeanDefinition("com.atguigu.bean.Red");
 		boolean definition2 = registry.containsBeanDefinition("com.atguigu.bean.Blue");
 		if(definition && definition2){

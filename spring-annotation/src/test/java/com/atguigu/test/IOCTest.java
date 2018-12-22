@@ -26,7 +26,8 @@ public class IOCTest {
 		Object bean3 = applicationContext.getBean("colorFactoryBean");
 		System.out.println("bean的类型："+bean2.getClass());
 		System.out.println(bean2 == bean3);
-		
+
+		//获取工厂本身
 		Object bean4 = applicationContext.getBean("&colorFactoryBean");
 		System.out.println(bean4.getClass());
 	}
