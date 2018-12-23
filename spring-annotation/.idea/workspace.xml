@@ -2,63 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d870ea46-e2d9-45da-93ad-d6181594693a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.atguigu/spring-annotation/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/com.atguigu/spring-annotation/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/aop/LogAspects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/aop/LogAspects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/aop/MathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/aop/MathCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Blue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Blue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Boss.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Boss.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/ColorFactoryBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/ColorFactoryBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/MyBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/MyBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/RainBow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/RainBow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Red.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Red.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Yellow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/bean/Yellow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/condition/LinuxCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/condition/LinuxCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/condition/MyImportBeanDefinitionRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/condition/MyImportBeanDefinitionRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/condition/MyImportSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/condition/MyImportSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/condition/WindowsCondition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/condition/WindowsCondition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfig2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfAOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfAOP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfLifeCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfPropertyValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConfigOfPropertyValues.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConifgOfAutowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MainConifgOfAutowired.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/config/MyTypeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/config/MyTypeFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/dao/BookDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ext/ExtConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ext/ExtConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyApplicationListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyApplicationListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyBeanDefinitionRegistryPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyBeanDefinitionRegistryPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyBeanFactoryPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ext/MyBeanFactoryPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/ext/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/ext/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/service/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/service/BookService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/tx/TxConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/tx/TxConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/tx/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/tx/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/tx/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/tx/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_AOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_AOP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Autowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Autowired.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Ext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Ext$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Ext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Ext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_LifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_LifeCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Profile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Profile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_PropertyValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_PropertyValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Tx.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/atguigu/test/IOCTest_Tx.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +33,10 @@
     <session id="1007034108">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="300">
               <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
             </state>
           </provider>
@@ -133,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MyTypeFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="200">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -142,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/ColorFactoryBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="675">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -151,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="425">
               <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
@@ -160,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="500">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="450">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
@@ -182,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="175">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -202,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="350">
               <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
@@ -211,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="875">
               <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
             </state>
           </provider>
@@ -256,7 +202,7 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-Djdk.util.zip.ensureTrailingSlash=false" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-96" />
     <option name="y" value="4" />
     <option name="width" value="1386" />
@@ -317,6 +263,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -418,14 +366,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545470413737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545470575684" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -535,7 +481,8 @@
       <option name="presentableId" value="Default" />
       <updated>1545456532977</updated>
       <workItem from="1545456542180" duration="260000" />
-      <workItem from="1545457455537" duration="11400000" />
+      <workItem from="1545457455537" duration="11559000" />
+      <workItem from="1545538869459" duration="596000" />
     </task>
     <servers />
   </component>
@@ -554,24 +501,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11660000" />
+    <option name="totallyTimeSpent" value="12415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-96" y="4" width="1386" height="779" extended-state="0" />
+    <frame x="-96" y="4" width="1386" height="779" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3006088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3066971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.04931973" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.17174959" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.17174959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -580,6 +526,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.04931973" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -704,10 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="300" column="42" selection-start-line="300" selection-start-column="42" selection-end-line="300" selection-end-column="42" />
-          <folding>
-            <element signature="e#11356#11357#0" expanded="true" />
-            <element signature="e#11417#11418#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,13 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -767,69 +703,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="300">
           <caret line="19" column="70" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MyTypeFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="200">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/bean/ColorFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="675">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/FilterType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/atguigu/test/IOCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="500">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/condition/MyImportBeanDefinitionRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE-sources.jar!/org/springframework/context/annotation/Import.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/config/MainConfig2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
-          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
