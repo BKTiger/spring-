@@ -151,3 +151,6 @@
 			
 	  		2. 要获取工厂Bean本身，我们需要给id前面加一个&
 	  			&colorFactoryBean
+
+				
+				
