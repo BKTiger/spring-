@@ -151,6 +151,19 @@
 			
 	  		2. 要获取工厂Bean本身，我们需要给id前面加一个&
 	  			&colorFactoryBean
+5. bean的生命周期
+
+	- bean的声明周期指的是:bean的创建---初始化---销毁的过程,容器管理bean的生命周期,我们可以自定义初始化和销毁方法
+	
+		```
+		配置类:com.atguigu.config.MainConfigOfLifeCycle
+		试验实体类:com.atguigu.bean.Car
+		测试:com.atguigu.test.IOCTest_LifeCycle
+		```
+	1. 通过@Bean指定init-method和destroy-method
+		
+		- 单实例对象在容器创建时初始化,在容器关闭时销毁
+		- 多实例对象在创建对象时初始化,容器不会管理
 
 				
 				
