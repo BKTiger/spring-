@@ -163,7 +163,33 @@
 	1. 通过@Bean指定init-method和destroy-method
 		
 		- 单实例对象在容器创建时初始化,在容器关闭时销毁
+		
 		- 多实例对象在创建对象时初始化,容器不会管理
+		
+	2. 通过让Bean实现InitializingBean（定义初始化逻辑），DisposableBean（定义销毁逻辑）;
+	
+		```
+		com.atguigu.bean.Cat
+		```
+	3. 可以使用JSR250注解;
+	
+		- @PostConstruct：在bean创建完成并且属性赋值完成；来执行初始化方法
+		
+ 		- @PreDestroy：在容器销毁bean之前通知我们进行清理工作
+		
+			```
+			com.atguigu.bean.Dog
+			```
+	4. BeanPostProcessor【interface】：bean的后置处理器；
+	
+ 		- 在bean初始化前后进行一些处理工作；
+		
+ 		- postProcessBeforeInitialization:在初始化之前工作
+		
+  		- postProcessAfterInitialization:在初始化之后工作
+		
+		```
+		com.atguigu.bean.MyBeanPostProcessor
+		```
 
-				
 				
