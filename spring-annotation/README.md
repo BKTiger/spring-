@@ -59,7 +59,7 @@
    @ComponentScans(
 		value = {
 				@ComponentScan(value="com.atguigu",includeFilters = {
-/*						@Filter(type=FilterType.ANNOTATION,classes={Controller.class}),
+	/*					@Filter(type=FilterType.ANNOTATION,classes={Controller.class}),
 						@Filter(type=FilterType.ASSIGNABLE_TYPE,classes={BookService.class}),*/
 						@Filter(type=FilterType.CUSTOM,classes={MyTypeFilter.class})
 				},useDefaultFilters = false)	
@@ -191,9 +191,9 @@
 	```
 	com.atguigu.bean.MyBeanPostProcessor
 	```
-6. 属性赋值
+#### 属性赋值
 	
-	1. 
+1. 
 
 
 				
