@@ -192,8 +192,67 @@
 	com.atguigu.bean.MyBeanPostProcessor
 	```
 #### 属性赋值
+
+```
+配置类:com.atguigu.config.MainConfigOfPropertyValues
+实体类:com.atguigu.bean.Person
+测试类:com.atguigu.test.IOCTest_PropertyValue
+
+```
 	
-1. 
+1. @Value
+	
+	- 基本数值
+	
+	- 可以写 SpEL:#{} 例如:@Aalue("#{20-2}")
+	
+	- 可以写 #{},取出配置文件[properties]中的值(在运行环境变量中的值)
+	
+		1. @PropertySource 加载外部配置文件,读取文件文件中的K/V,保存在运行环境变量中:在配置类上加入@PropertySource(value = {"classpath:/person.properties"})
 
+#### 自动装配
 
+```
+配置类:com.atguigu.config.MainConifgOfAutowired
+测试类:com.atguigu.test.IOCTest_Autowired
+
+```
+
+1. 概念:Spring 利用依赖注入(DI),完成对IOC容器中各个组件的依赖关系赋值;
+
+2. @Autowired 自动注入
+
+	* 默认优先按照类型去容器中找对应的组件:applicationContext.getBean(Xxx.class)
+	
+	* 如果找到多个相同类型的组件,再将属性的名称作为组件的id去组件中查找:applicationContext.getBean("xxXxx")
+3. @Qualifier("xxXxx")
+
+	* 使用该注解指定需要装配的组件id
+	
+4. @Autowired(required = false)
+	
+	* 如果不指定required,默认一定要将属性赋值好,否则就会报错
+
+5. @Primary:让Spring进行自动装配(Autowired)时.默认使用首选bean,也可以使用Qualifier("xxXxx")指定要使用的bean
+
+6. @Resource
+
+	* JSR250的规范
+	
+	* 默认根据组件名称进行装配,但是不会使用首选@Primary,没有支持required = false
+	
+	* @Resource(name = "xxXxx")指定bean
+	
+7. @Inject
+	* JSR330的规范,需要导入jar包
+		```
+		<dependency>
+			<groupId>javax.inject</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>1</version>
+		</dependency>
+		```
+	* 和Autowired的功能一样,不过不能支持required = false
+8. AutowiredAnnotationBeanPostProcessor:解析完成自动装配功能；
+	
 				
