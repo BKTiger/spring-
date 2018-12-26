@@ -264,12 +264,60 @@
 	1. 标注在方法
 	
 		* Spring容器创建当前对象，就会调用方法，完成赋值；
+		
 		* 方法使用的参数，自定义类型的值从ioc容器中获取
 	
 	2. 标注在构造器 
 	
 		* 默认加在ioc容器中的组件，容器启动会调用无参构造器创建对象，再进行初始化赋值等操作;
+		
 		* 构造器要用的组件，都是从容器中获取
+		
 		* 如果组件只有一个有参构造器，这个有参构造器的@Autowired可以省略，参数位置的组件还是可以自动从容器中获取
+		
+	3. 放在参数位置
 	
+	4. @Bean标注的方法创建对象的时候，方法参数的值从容器中获取 默认不写Autowired
+
+10. 自定义组件想要使用Spring容器底层的一些组件（ApplicationContext，BeanFactory，xxx）；
+
+	```
+	com.atguigu.bean.Red
+
+	```
+
+	* 自定义组件实现xxxAware；在创建对象的时候，会调用接口规定的方法注入相关组件；Aware；
+	
+	* 把Spring底层一些组件注入到自定义的Bean中；
+	
+	* xxxAware：功能使用xxxProcessor；
+	
+	* ApplicationContextAware==》ApplicationContextAwareProcessor；后置处理器实现Aware
+
+11. @Profile
+
+	```
+	配置类:com.atguigu.config.MainConfigOfProfile
+	测试类:com.atguigu.test.IOCTest_Profile
+	```
+
+	* 指定组件在哪个环境的情况下才能被注册到容器中，不指定，任何环境下都能注册这个组件
+	
+	1. 加了环境标识的bean，只有这个环境被激活的时候才能注册到容器中。默认是default环境
+	
+	2. 指定环境标识的方法
+		
+		* 使用命令行动态参数: 在虚拟机参数位置加载 -Dspring.profiles.active=test
+		
+		* 用代码方式
+			```
+			//1、创建一个applicationContext
+			//2、设置需要激活的环境
+			applicationContext.getEnvironment().setActiveProfiles("dev");
+			//3、注册主配置类
+			applicationContext.register(MainConfigOfProfile.class);
+			//4、启动刷新容器
+			applicationContext.refresh();
+			```
 				
+	3. 写在配置类上，只有是指定的环境的时候，整个配置类里面的所有配置才能开始生效
