@@ -378,8 +378,16 @@
 5. 必须告诉Spring哪个类是切面类(给切面类上加一个注解：@Aspect)
 
 6. 给配置类中加 @EnableAspectJAutoProxy 【开启基于注解的aop模式】
-	
 
+	* JoinPoint 获取方法的执行信息
+
+7. 总结(3步)
+
+	1. 将业务逻辑组件和切面类都加入到容器中；告诉Spring哪个是切面类（@Aspect）
+	
+	2. 在切面类上的每一个通知方法上标注通知注解，告诉Spring何时何地运行（切入点表达式）
+	
+	3. 开启基于注解的aop模式；@EnableAspectJAutoProxy
 	
 	
 	
